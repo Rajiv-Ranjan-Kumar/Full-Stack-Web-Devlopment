@@ -2,6 +2,7 @@
 word string using match case statement
 """
 string = input("Enter the String : ")
+string = string.strip()
 match string :
     case string if " " in string or "@" in string or "#" in string or "$" in string or "%" in string or "&" in string or "*" in string:
         print("multiword string")
